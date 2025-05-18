@@ -1,0 +1,35 @@
+.order-success-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+  text-align: center;
+  margin-top: -50px
+}
+
+.order-success-gift {
+  width: 180px;
+  height: auto;
+  margin-bottom: 32px;
+}
+
+.order-success-btn {
+  margin-top: 32px;
+  padding: 12px 36px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.order-success-btn:hover {
+  background: #444;
+} 
